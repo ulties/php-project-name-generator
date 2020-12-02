@@ -1,0 +1,49 @@
+{
+    "name": "ulties/php-project-name-generator",
+    "description": "A project name generator for PHP",
+    "keywords": [
+        "name-generator",
+        "php"
+    ],
+    "homepage": "https://github.com/ulties/php-project-name-generator",
+    "type": "library",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/ulties/php-project-name-generator/issues",
+        "source": "https://github.com/ulties/php-project-name-generator"
+    },
+    "authors": [
+        {
+            "name": "Mark Topper",
+            "email": "mark@ulties.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0|^8.0",
+        "ulties/english-words": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ulties\\ProjectNameGenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ulties\\ProjectNameGenerator\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
