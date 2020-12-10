@@ -43,8 +43,8 @@ If you discover any security related issues, please email author@email.com inste
 
 ## Credits
 
-- [AuthorName](https://github.com/ulties)
-- [All Contributors](../../contributors)
+- [Ulties](https://github.com/ulties)
+- [All Contributors](https://github.com/ulties/php-project-name-generator/contributors)
 
 ## License
 
