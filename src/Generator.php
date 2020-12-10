@@ -94,7 +94,7 @@ class Generator
     public static function adjectives(): array
     {
         if (is_null(self::$adjectives)) {
-            self::$adjectives = require ENGLISH_WORDS_PATH . '/adjectives.php';
+            self::$adjectives = require __DIR__ . '/../words/adjectives.php';
         }
 
         return self::$adjectives;
@@ -108,7 +108,7 @@ class Generator
     public static function nouns(): array
     {
         if (is_null(self::$nouns)) {
-            self::$nouns = require ENGLISH_WORDS_PATH . '/nouns.php';
+            self::$nouns = require __DIR__ . '/../words/nouns.php';
         }
 
         return self::$nouns;

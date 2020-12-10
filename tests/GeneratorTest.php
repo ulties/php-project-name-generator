@@ -20,8 +20,8 @@ class GeneratorTest extends TestCase
     public function __construct(string $name = null, array $data = [], $dataName = '')
     {
         // Load words.
-        $this->nouns = require ENGLISH_WORDS_PATH . '/nouns.php';
-        $this->adjectives = require ENGLISH_WORDS_PATH . '/adjectives.php';
+        $this->nouns = require __DIR__ . '/../words/nouns.php';
+        $this->adjectives = require __DIR__ . '/../words/adjectives.php';
 
         parent::__construct($name, $data, $dataName);
     }
