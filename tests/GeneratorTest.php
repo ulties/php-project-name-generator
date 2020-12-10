@@ -2,7 +2,6 @@
 
 namespace Ulties\ProjectNameGenerator\Tests;
 
-use PHPUnit\Framework\TestCase;
 use Ulties\ProjectNameGenerator\Generator;
 
 class GeneratorTest extends TestCase
