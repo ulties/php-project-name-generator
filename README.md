@@ -1,7 +1,7 @@
 # Project Name Generator
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/ulties/php-project-name-generator.svg?style=flat-square)](https://packagist.org/packages/ulties/php-project-name-generator)
-[![Build Status](https://img.shields.io/travis/ulties/php-project-name-generator/master.svg?style=flat-square)](https://travis-ci.org/ulties/php-project-name-generator)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ulties/php-project-name-generator.svg)](https://packagist.org/packages/ulties/php-project-name-generator)
+[![Build Status](https://img.shields.io/github/workflow/status/ulties/php-project-name-generator/Tests?style=flat-square)](https://github.com/ulties/php-project-name-generator/actions?query=workflow%3ATests)
 [![Quality Score](https://img.shields.io/scrutinizer/g/ulties/php-project-name-generator.svg?style=flat-square)](https://scrutinizer-ci.com/g/ulties/php-project-name-generator)
 [![Total Downloads](https://img.shields.io/packagist/dt/ulties/php-project-name-generator.svg?style=flat-square)](https://packagist.org/packages/ulties/php-project-name-generator)
 
